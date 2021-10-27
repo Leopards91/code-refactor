@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*The body resembles the background*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*The header resembles the top bar */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*The h1 in the header is the word "Horiseon" on the top left */
+.header h1 {
+    display: inline-block;
+    color: #d9dcd6;
+    font-size: 48px;
+}
+
+/*sets the padding, margin, float, font and font size for the text on the top right. Also sets the list style type and the display type*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+/*Sets the amount of space between each selection on top right*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Font size for the description in each article*/
+p {
+    font-size: 16px;
+}
+
+/*sets the background image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Sets the amount of space from the left-floating image to the article*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Sets the amount of space from the right-floating image to the article*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*Sets the amount of space margin from left edge to the section and the width of the section by the percentage of the screen width */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/*".benefits" involve the aside (right side)*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+
+/*Set the margin space between the section and the footer*/
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Sets the amount of space from the title of each aside and the corrersponding image*/
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Sets the amount of margin between the title, the corresponding image and the text, while also setting the max width of the display*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Sets the dimensions of the sections*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Sets the max height of the image in each article*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Sets the font size of the article's title and the space between the title and the paragraph*/ 
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*formatting the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*smaller text in the footer (copyright comment)*/
+.footer h2 {
+    font-size: 20px;
+}
